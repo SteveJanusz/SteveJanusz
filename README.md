@@ -1,9 +1,13 @@
 # Readme
-### To upload
-```git
+#### To upload
+```
 git add README.md
 git commit -m "comment"
 git push -u origin master
 ```
-### Useful sites
+#### Get local copy of repository
+```
+git clone https://github.com/BytingBucs/SteveJanusz
+```
+#### Useful sites
 * [git commands](http://rogerdudler.github.io/git-guide/)
