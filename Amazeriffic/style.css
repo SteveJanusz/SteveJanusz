@@ -13,6 +13,10 @@ li:before {
 	text-indent: 8px;
 	content: "\2022";
 }
+.right {
+	text-align: right;
+	margin-right: 100px;
+}
 body {
 	background: #f9e933;
 }
