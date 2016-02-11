@@ -1,7 +1,14 @@
 var main = function() {
 	"use strict";
 	
-	window.alert("hello world!");
+	$(".comment-input button").on("click", function (event) {
+		
+		if ($(".comment-input input").val() !== "") {
+			var $new_comment = $("<p>").text($(".comment-input input").val());
+			$(".comments").append($new_comment);
+		}
+
+	});
 };
 
 $(document).ready(main);
