@@ -4,7 +4,7 @@ h1 {
 }
 h5 {
 	font-size: 125%;
-	border-bottom: 1px dashed black;
+	/*border-bottom: 1px dashed black;*/
 }
 p {
 	line-height: 36px;
@@ -18,7 +18,7 @@ li:before {
 	margin-right: 100px;
 }
 body {
-	background: #f9e933;
+	background: #fff;
 }
 header, main, footer {
 	min-width: 855px;
@@ -30,6 +30,8 @@ header .container, main .container, footer .container {
 header {
 	background: white;
 	overflow: auto;
+	border-bottom: 1px solid black;
+	margin: 30px;
 }
 header h1 {
 	float: left;
@@ -54,11 +56,21 @@ main {
 .tabs a span.active {
 	background: #eee;
 }
+footer {
+	height: 200px;
+	background: #f9e933;
+}
 footer .contact {
 	float: left;
 	width: 570px;
+	margin: 35px;
+}
+footer .contact  div p {
+	margin: 5px;
+	line-height: 16px;
 }
 footer .sitemap {
 	float: right;
 	width: 285px;
+	margin: 35px;
 }
