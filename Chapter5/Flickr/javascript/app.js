@@ -20,8 +20,7 @@ var searchForImages = function() {
 			//$img.fadeIn();
 			window.images.push(photo.media.m);
 		});
-	});
-	
+	});	
 }
 
 $(document).ready(main);
